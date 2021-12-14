@@ -15,7 +15,6 @@ import HammerIcon from '@material-ui/icons/Gavel';
 import SettingsIcon from '@material-ui/icons/Settings';
 import SportsEsportsIcon from '@material-ui/icons/SportsEsports';
 import WifiIcon from '@material-ui/icons/Wifi';
-import { HashRouter } from 'react-router-dom';
 
 
 
@@ -81,7 +80,6 @@ const styles = makeStyles({
 function App() {
   const classes = styles(); 
   return (
-    <HashRouter>
     <div className="App">
       <ThemeProvider theme={theme}>
         
@@ -112,7 +110,6 @@ function App() {
          
       </ThemeProvider>
     </div>
-    </HashRouter>
 
 
 
