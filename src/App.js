@@ -122,7 +122,7 @@ function App() {
           😭 We currently have only one plugin 😭
           </Typography>
           <Typography variant="h5" className={classes.littleSpace3} color="primary">
-          😄 But we are currently coding some more so stay tuned! 😄
+          😄 But we are going to code some more so stay tuned! 😄
           </Typography>
         </div>
         <Footer/>
